@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Michael Tom" />
+    <meta name="Description" content="A Michael Tom Webpage" />
+    <title>Michael Tom</title>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <link rel="icon" href="asset/img/mich.jpg" type="image/x-icon" />
+    <style>
+      * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+html {
+  font-size: 22px;
+}
+
+body {
+  background-color: #333;
+  color: whitesmoke;
+}
+
+/* the header section */
+header {
+  background-color: rgb(199, 148, 71);
+  padding-bottom: 2rem;
+  padding-top: 1rem;
+}
+
+/* my name in the nav section */
+
+.michael {
+  color: green;
+  font-weight: 700rem;
+  font-family: Cascadia Code;
+  background-color: aliceblue;
+  border-radius: 1.2rem;
+  padding: 15px;
+  font-weight: 1000rem;
+}
+.michael:hover {
+  color: white;
+  background-color: darkgreen;
+}
+
+/* the nav bar/section */
+
+.navb {
+  background-color: burlywood;
+  display: flex;
+  width: 100%;
+  margin: 0;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  padding: 0.9rem;
+  border-radius: 1.2rem;
+}
+.sub_items {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: end;
+  gap: 1rem;
+  background-color: coral;
+}
+
+.nav_intext {
+  color: beige;
+}
+
+.nav_intext:hover {
+  background-color: burlywood;
+  border-radius: 0.4rem;
+  padding: 2px;
+}
+/* the part containing mypic and hello i am Michael Tom */
+.image_and_text {
+  background-color: coral;
+  border-radius: 2rem;
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  align-items: center;
+  gap: 2rem;
+  padding: 4px;
+}
+
+.mypic {
+  width: 8rem;
+  border-radius: 2rem;
+  margin-right: 2rem;
+}
+
+/* the intoduction paragraph */
+
+.intro {
+  padding: 2rem;
+  text-align: justify;
+  background-color: burlywood;
+  border-radius: 1.2rem;
+  color: aliceblue;
+  margin: 2rem;
+}
+
+.intext {
+  background-color: coral;
+  width: 20%;
+  padding: 15px;
+  border-radius: 1.2rem;
+  text-align: center;
+}
+
+.sect {
+  background-color: brown;
+  padding: 2rem;
+}
+.par {
+  padding: 2rem;
+  text-align: justify;
+  background-color: burlywood;
+  border-radius: 1.2rem;
+  color: aliceblue;
+  margin: 2rem;
+}
+
+.sub_heads {
+  width: 28%;
+  border-radius: 1.2rem;
+  text-align: center;
+  background-color: coral;
+  padding: 0.5rem;
+}
+.rect {
+  width: 50%;
+}
+
+.abme {
+  width: 20%;
+}
+
+/* the footer section */
+.fot {
+  padding: 2rem;
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  background-color: #333;
+}
+
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="navb">
+          <h1 class="michael">Michael</h1>
+          <div class="navb sub_items">
+            <p class="nav_intext">Introduction</p>
+            <p class="nav_intext">About me</p>
+            <p class="nav_intext">Skills</p>
+            <p class="nav_intext">Testimonials</p>
+            <p class="nav_intext">Contact Information</p>
+          </div>
+        </div>
+      </nav>
+      <br />
+      <div class="parent">
+        <div class="image_and_text">
+          <img
+            src="asset/img/mich.jpg"
+            alt="a picture of Michael Tom"
+            class="mypic"
+          />
+          <h1>Hello I am Michael Tom</h1>
+        </div>
+        <br />
+      </div>
+      <div class="intro">
+        <h2 class="intext">Introduction</h2>
+        <br>
+        <div>
+          <p>
+            Greetings! I'm Michael Tom, a passionate web developer
+            and graphic designer with over a year of experience in crafting
+            visually appealing websites and stunning graphic designs. My portfolio
+            showcases my journey and expertise in these fields
+          </p>
+        </div>
+      </div>
+    </header>
+
+    <section class="sect">
+      <br />
+      <h2 class="sub_heads">Projects Showcase</h2>
+      <p class="par">
+        Explore a curated selection of my projects, including
+        website designs, logo creations, branding campaigns, and more. Each
+        project comes with a brief description highlighting the objectives,
+        challenges, and solutions implemented
+      </p>
+      <br />
+
+      <h2 class="sub_heads">Skills Section</h2>
+      <p class="par">
+        Proficient in HTML, CSS, JavaScript, Adobe Photoshop,
+        Illustrator, and WordPress. My skills are complemented by a strong eye
+        for design and a deep understanding of user experience principles
+      </p>
+      <br />
+
+      <h2 class="sub_heads rect" >Testimonials / Recommendations</h2>
+      <p class="par">
+        Hear what my clients have to say!
+        Testimonials from satisfied clients underscore my dedication,
+        professionalism, and ability to deliver exceptional results
+      </p>
+      <br />
+
+      <h2 class="sub_heads abme">About Me</h2>
+      <p class="par">
+        Learn more about the person behind the designs. My journey,
+        inspirations, and aspirations in the world of web development and
+        graphic design
+      </p>
+      <br >
+      <h2 class="sub_heads">Contact Information</h2>
+        <p class="par">
+          Ready to start a project together? Reach out to me
+          via email at <u>mic81070@example.com</u> or connect with me on Facebook and WhatsApp
+        </p>
+    </section>
+    <section>
+      <aside> </aside>
+    </section>
+    <footer>
+      <div class="fot">
+        <p>&lt;&lt;&lt; &copy; <bold>Michael Tom<bold>&gt;&gt;&gt;</p>
+          
+      </div>
+    </footer>
+  </body>
+</html>

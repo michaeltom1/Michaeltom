@@ -259,3 +259,7 @@ function handleMenuClick() {
 
   }
 }
+
+/*
+<!-- <!DOCTYPE html><html lang="en"><head><script defer src="./main.js"></script></head><body></body></html> -->
+*/ 
